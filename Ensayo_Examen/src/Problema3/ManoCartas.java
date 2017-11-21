@@ -5,9 +5,7 @@ package Problema3;
 */
 public class ManoCartas {
 	LinkedPositionalList<Poker> l = new LinkedPositionalList<Poker>();
-	/**
-	 * @param Valor del numero de la carta, tipo de carta
-	 */
+
 	public void AddCard(int valor, String categoria) {
 		Poker d = new Poker();
 		d.setValorCarta(valor);
@@ -34,9 +32,7 @@ public class ManoCartas {
 			}
 		}
 	}
-	/**
-	 * @param Tipo de carta
-	 */
+
 	public void Play(String categoria) {
 		boolean UsedCard = false;
 		LinkedPositionalList<Poker> L = new LinkedPositionalList<Poker>();
